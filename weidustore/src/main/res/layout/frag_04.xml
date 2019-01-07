@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radioGroup01"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/shape_border"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_indent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/indentonetwo"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="全部订单"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/paytwo"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="全部订单"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/receivetwo"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="全部订单"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_estimate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/estimatetwo"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="全部订单"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/finishtwo"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="全部订单"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+</LinearLayout>

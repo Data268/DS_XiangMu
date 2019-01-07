@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/search_image"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:id="@+id/search_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="卡帝乐鳄鱼"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/search_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥109.00"
+            android:textSize="14sp"
+            android:textColor="#ff0000"/>
+        <TextView
+            android:id="@+id/search_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="已售"
+            android:textColor="#666666"
+            android:layout_marginLeft="130dp"/>
+    </LinearLayout>
+</LinearLayout>
